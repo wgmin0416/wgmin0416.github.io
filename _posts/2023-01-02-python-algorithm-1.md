@@ -4,7 +4,7 @@ layout: post
 title: Python 공부하기 1일차
 subtitle: 2023-01-02
 description: 프로그래머스 Lv.0
-image: /assets/img/posts/python_image.png
+image: 
 optimized_image: /assets/img/posts/python_image.png
 category: python
 tags:
