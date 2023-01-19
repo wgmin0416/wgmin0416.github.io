@@ -1,8 +1,8 @@
 ---
 date: 2023-01-02 22:10:00
 layout: post
-title: Python 공부하기 1일차
-subtitle: 2023-01-02
+title: 알고리즘 프로그래머스 Lv.0 풀이 (1)
+subtitle: algorithm python
 description: 프로그래머스 Lv.0
 image: 
 optimized_image: /assets/img/posts/python_image.png
