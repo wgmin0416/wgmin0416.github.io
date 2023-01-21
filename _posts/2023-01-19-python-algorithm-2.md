@@ -1,20 +1,17 @@
 ---
 date: 2023-01-19 12:16:13
 layout: post
-title: 알고리즘 프로그래머스 Lv.0 풀이 (2)
+title: 알고리즘 문제 풀기(2)
 subtitle: algorithm python
 description: 프로그래머스 Lv.0
-image:
-optimized_image: /assets/img/posts/python_image.png
-category: python
+image: /assets/img/posts/algorithm.jpg
+optimized_image: /assets/img/posts/algorithm.jpg
+category: algorithm
 tags:
 - python
 - algorithm
 author: wgmin0416
 ---
-Python 기초부터 공부하기
-===
-
 <h2>짝수의 합</h2>
 ##### 문제<br>
 정수 n이 주어질 때, n이하의 짝수를 모두 더한 값을 return 하도록 solution 함수를 작성해주세요.
@@ -103,7 +100,7 @@ def solution(array, height):
 ```
 같은 방식으로 sum함수를 사용해 간결하게 풀이했다.
 
-<h2>머쓱이보다 키 큰 사람</h2>
+<h2>배열 뒤집기</h2>
 ##### 문제<br>
 정수가 들어 있는 배열 num_list가 매개변수로 주어집니다. num_list의 원소의 순서를 거꾸로 뒤집은 배열을 return하도록 solution 함수를 완성해주세요.
 1 ≤ num_list의 길이 ≤ 1,000
@@ -128,7 +125,7 @@ array[::] extended slices를 활용하여 간단하게 뒤집었다.<br/>
 > arr[::2] # 처음 ~ 끝 두 칸 간격 [0,2,4,6,8] <br/>
 > arr[1::2] # index 1 ~ 끝까지 두 칸 간격 [1,3,5,7,9] <br/>
 > arr[::-1] # 처음 ~ 끝 -1칸 간격(=역순) [9,8,7,6,5,4,3,2,1,0] <br/>
-> arr[::-2] # 처음 ~ 끝까-2칸 간격(=역순, 두 칸 간격) [9,7,5,3,1] <br/>
+> arr[::-2] # 처음 ~ 끝 -2칸 간격(=역순, 두 칸 간격) [9,7,5,3,1] <br/>
 > arr[3::-1] # index 3 ~ 끝까지 -1칸 간격(=역순) [3,2,1,0] <br/>
 > arr[1:6:2] # index 1 ~ index 6 까지 두 칸 간격 [1,3,5] <br/>
 

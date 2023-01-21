@@ -1,12 +1,12 @@
 ---
 date: 2023-01-02 22:10:00
 layout: post
-title: 알고리즘 프로그래머스 Lv.0 풀이 (1)
+title: 알고리즘 문제 풀기(1)
 subtitle: algorithm python
 description: 프로그래머스 Lv.0
-image: 
-optimized_image: /assets/img/posts/python_image.png
-category: python
+image: /assets/img/posts/algorithm.jpg
+optimized_image: /assets/img/posts/algorithm.jpg
+category: algorithm
 tags:
   - python
   - algorithm
