@@ -4,7 +4,7 @@ layout: post
 title: 23.01.22 농구 일기
 subtitle: 농구 성장을 위한 피드백
 description: 농구 성장을 위한 피드백 기록
-image:
+image: /assets/img/posts/ball.jpg
 optimized_image: /assets/img/posts/ball.jpg
 category: basketball
 tags:
