@@ -12,12 +12,12 @@ show_hero: true
 menu:
   - title: Home
     url: /
-  - title: About
-    url: /about
+#  - title: About
+#    url: /about
   - title: Contact
     url: /contact
-  - title: Posts
-    url: /posts
+  - title: Tags
+    url: /tags
   # - title: Feed
   #   url: /feed.xml
 email: min20000416@naver.com
@@ -31,11 +31,11 @@ formspree_form_id: formspree_form_id
 # Social Media Settings
 # Remove the item if you don't need it
 github_username: wgmin0416
-facebook_username: ''
-twitter_username: ''
+#facebook_username: ''
+#twitter_username: ''
 instagram_username: woong.niverse
-linkedin_username: ''
-medium_username: ''
+#linkedin_username: ''
+#medium_username: ''
 
 
 # Posts Settings
