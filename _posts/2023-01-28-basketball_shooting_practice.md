@@ -21,7 +21,8 @@ paginate: false
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5KcQYP9hx3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
 
-&nbsp;&nbsp;전체적으로 감은 나쁘지 않았다. 하지만 녹화한 영상을 보니 아직 비거리가 잘 나오지 않아 거리가 멀수록 부담을 느끼는 문제가 있었다.
+&nbsp;&nbsp;전체적으로 감은 나쁘지 않았다. 하지만 녹화한 영상을 보니 아직 비거리가 잘 나오지 않아 거리가 멀수록 부담을 느끼는 문제가 있었다.<br/>
+또 머리에서 공이 멈추는 시간이 길어 하체 힘에 손실이 나는 전에 있던 습관이 다시 보였다.<br/>
 같이 연습하던 형이 슛폼을 보고 준 세 가지 피드백이 있었는데<br/>
 첫번째는 점프를 너무 의식적으로 앞으로 뛰는 것,<br/>
 두번째는 힙힌지가 되지 않아 점프하는 힘이 약한 느낌,<br/>
