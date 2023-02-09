@@ -9,8 +9,6 @@ optimized_image:
 category: dev
 tags:
 - node.js
-- backend
-- refactoring 
 author: wgmin0416
 paginate: false
 ---

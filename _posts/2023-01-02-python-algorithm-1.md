@@ -8,7 +8,6 @@ image: /assets/img/posts/algorithm.jpg
 optimized_image: /assets/img/posts/algorithm.jpg
 category: algorithm
 tags:
-  - python
   - algorithm
 author: wgmin0416
 ---
@@ -21,8 +20,8 @@ Python 기초부터 공부하기
 
 <h2>몫 구하기</h2> 
 ##### 문제<br>
-정수 num1, num2가 매개변수로 주어질 때, num1을 num2로 나눈 몫을 return 하도록 solution 함수를 완성해주세요.
-0 < num1 ≤ 100
+정수 num1, num2가 매개변수로 주어질 때, num1을 num2로 나눈 몫을 return 하도록 solution 함수를 완성해주세요.<br/>
+0 < num1 ≤ 100<br/>
 0 < num2 ≤ 100
 ```python
 def solution(num1, num2):
@@ -39,8 +38,8 @@ a//b 의 결과 값을 보여주는 값이다.
 
 <h2>나머지 구하기</h2>
 ##### 문제<br>
-정수 num1, num2가 매개변수로 주어질 때, num1를 num2로 나눈 나머지를 return 하도록 solution 함수를 완성해주세요.
-0 < num1 ≤ 100
+정수 num1, num2가 매개변수로 주어질 때, num1를 num2로 나눈 나머지를 return 하도록 solution 함수를 완성해주세요.<br/>
+0 < num1 ≤ 100<br/>
 0 < num2 ≤ 100
 ```python
 def solution(num1, num2):
@@ -57,8 +56,8 @@ divmod(x, y)는 두 숫자를 인자로 전달 받아 첫번째 인자를 두번
 
 <h2>숫자 비교하기</h2>
 ##### 문제<br>
-정수 num1과 num2가 매개변수로 주어집니다. 두 수가 같으면 1 다르면 -1을 retrun하도록 solution 함수를 완성해주세요.
-0 ≤ num1 ≤ 10,000
+정수 num1과 num2가 매개변수로 주어집니다. 두 수가 같으면 1 다르면 -1을 retrun하도록 solution 함수를 완성해주세요.<br/>
+0 ≤ num1 ≤ 10,000<br/>
 0 ≤ num2 ≤ 10,000
 ```python
 def solution(num1: int, num2: int)->int:
@@ -69,12 +68,12 @@ one-line if else문을 이용했다.
 <h2>각도기</h2>
 ##### 문제<br>
 각에서 0도 초과 90도 미만은 예각, 90도는 직각, 90도 초과 180도 미만은 둔각 180도는 평각으로 분류합니다. 
-각 angle이 매개변수로 주어질 때 예각일 때 1, 직각일 때 2, 둔각일 때 3, 평각일 때 4를 return하도록 solution 함수를 완성해주세요.
-예각 : 0 < angle < 90
-직각 : angle = 90
-둔각 : 90 < angle < 180
-평각 : angle = 180
-0 < angle ≤ 180
+각 angle이 매개변수로 주어질 때 예각일 때 1, 직각일 때 2, 둔각일 때 3, 평각일 때 4를 return하도록 solution 함수를 완성해주세요.<br/>
+예각 : 0 < angle < 90<br/>
+직각 : angle = 90<br/>
+둔각 : 90 < angle < 180<br/>
+평각 : angle = 180<br/>
+0 < angle ≤ 180<br/>
 angle은 정수입니다.
 ```python
 def solution(angle):

@@ -8,13 +8,12 @@ image: /assets/img/posts/algorithm.jpg
 optimized_image: /assets/img/posts/algorithm.jpg
 category: algorithm
 tags:
-- python
-- algorithm
+  - algorithm
 author: wgmin0416
 ---
 <h2>짝수의 합</h2>
 ##### 문제<br>
-정수 n이 주어질 때, n이하의 짝수를 모두 더한 값을 return 하도록 solution 함수를 작성해주세요.
+정수 n이 주어질 때, n이하의 짝수를 모두 더한 값을 return 하도록 solution 함수를 작성해주세요.<br/>
 0 < n ≤ 1000
 ```python
 def solution(n):
@@ -35,9 +34,9 @@ def solution(n):
 
 <h2>배열의 평균값</h2>
 ##### 문제<br>
-정수 배열 numbers가 매개변수로 주어집니다. numbers의 원소의 평균값을 return하도록 solution 함수를 완성해주세요.
-0 ≤ numbers의 원소 ≤ 1,000
-1 ≤ numbers의 길이 ≤ 100
+정수 배열 numbers가 매개변수로 주어집니다. numbers의 원소의 평균값을 return하도록 solution 함수를 완성해주세요.<br/>
+0 ≤ numbers의 원소 ≤ 1,000<br/>
+1 ≤ numbers의 길이 ≤ 100<br/>
 정답의 소수 부분이 .0 또는 .5인 경우만 입력으로 주어집니다.
 ```python
 def solution(numbers):
@@ -59,9 +58,11 @@ numpy라는 라이브러리를 사용해서 풀이했다.<br/>
 
 <h2>양꼬치</h2>
 ##### 문제<br>
-머쓱이네 양꼬치 가게는 10인분을 먹으면 음료수 하나를 서비스로 줍니다. 양꼬치는 1인분에 12,000원, 음료수는 2,000원입니다. 정수 n과 k가 매개변수로 주어졌을 때, 양꼬치 n인분과 음료수 k개를 먹었다면 총얼마를 지불해야 하는지 return 하도록 solution 함수를 완성해보세요.
-0 < n < 1,000
-n / 10 ≤ k < 1,000
+머쓱이네 양꼬치 가게는 10인분을 먹으면 음료수 하나를 서비스로 줍니다. 
+양꼬치는 1인분에 12,000원, 음료수는 2,000원입니다. 정수 n과 k가 매개변수로 주어졌을 때, 
+양꼬치 n인분과 음료수 k개를 먹었다면 총얼마를 지불해야 하는지 return 하도록 solution 함수를 완성해보세요.<br/>
+0 < n < 1,000<br/>
+n / 10 ≤ k < 1,000<br/>
 서비스로 받은 음료수는 모두 마십니다.
 ```python
 def solution(n, k):
@@ -79,9 +80,11 @@ def solution(n, k):
 
 <h2>머쓱이보다 키 큰 사람</h2>
 ##### 문제<br>
-머쓱이는 학교에서 키 순으로 줄을 설 때 몇 번째로 서야 하는지 궁금해졌습니다. 머쓱이네 반 친구들의 키가 담긴 정수 배열 array와 머쓱이의 키 height가 매개변수로 주어질 때, 머쓱이보다 키 큰 사람 수를 return 하도록 solution 함수를 완성해보세요.
-1 ≤ array의 길이 ≤ 100
-1 ≤ height ≤ 200
+머쓱이는 학교에서 키 순으로 줄을 설 때 몇 번째로 서야 하는지 궁금해졌습니다. 
+머쓱이네 반 친구들의 키가 담긴 정수 배열 array와 머쓱이의 키 height가 매개변수로 주어질 때, 
+머쓱이보다 키 큰 사람 수를 return 하도록 solution 함수를 완성해보세요.<br/>
+1 ≤ array의 길이 ≤ 100<br/>
+1 ≤ height ≤ 200<br/>
 1 ≤ array의 원소 ≤ 200
 ```python
 def solution(array, height):
@@ -102,8 +105,9 @@ def solution(array, height):
 
 <h2>배열 뒤집기</h2>
 ##### 문제<br>
-정수가 들어 있는 배열 num_list가 매개변수로 주어집니다. num_list의 원소의 순서를 거꾸로 뒤집은 배열을 return하도록 solution 함수를 완성해주세요.
-1 ≤ num_list의 길이 ≤ 1,000
+정수가 들어 있는 배열 num_list가 매개변수로 주어집니다. 
+num_list의 원소의 순서를 거꾸로 뒤집은 배열을 return하도록 solution 함수를 완성해주세요.<br/>
+1 ≤ num_list의 길이 ≤ 1,000<br/>
 0 ≤ num_list의 원소 ≤ 1,000
 ```python
 def solution(num_list):

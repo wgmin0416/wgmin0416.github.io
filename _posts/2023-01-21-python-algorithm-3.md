@@ -8,15 +8,14 @@ image: /assets/img/posts/algorithm.jpg
 optimized_image: /assets/img/posts/algorithm.jpg
 category: algorithm
 tags:
-  - python
   - algorithm
 author: wgmin0416
 ---
 <h2>아이스 아메리카노</h2>
-##### 문제<br>
+##### 문제<br/>
 머쓱이는 추운 날에도 아이스 아메리카노만 마십니다. 아이스 아메리카노는 한잔에 5,500원입니다. 
 머쓱이가 가지고 있는 돈 money가 매개변수로 주어질 때, 머쓱이가 최대로 마실 수 있는 아메리카노의 잔 수와 
-남는 돈을 순서대로 담은 배열을 return 하도록 solution 함수를 완성해보세요.
+남는 돈을 순서대로 담은 배열을 return 하도록 solution 함수를 완성해보세요.<br/>
 0 < money ≤ 1,000,000
 ```python
 def solution(money):
@@ -34,7 +33,7 @@ divmod함수는 몫과 나머지를 배열로 return한다.
 <h2>피자 나눠 먹기(1)</h2>
 ##### 문제<br>
 머쓱이네 피자가게는 피자를 일곱 조각으로 잘라 줍니다. 피자를 나눠먹을 사람의 수 n이 주어질 때,
-모든 사람이 피자를 한 조각 이상 먹기 위해 필요한 피자의 수를 return 하는 solution 함수를 완성해보세요.
+모든 사람이 피자를 한 조각 이상 먹기 위해 필요한 피자의 수를 return 하는 solution 함수를 완성해보세요.<br/>
 1 ≤ n ≤ 100
 ```python
 def solution(n):
@@ -55,7 +54,7 @@ if 분기처리가 아닌 몫을 이용해 수학적으로 접근하는 방법�
 
 <h2>문자열 뒤집기</h2>
 ##### 문제<br>
-문자열 my_string이 매개변수로 주어집니다. my_string을 거꾸로 뒤집은 문자열을 return하도록 solution 함수를 완성해주세요.
+문자열 my_string이 매개변수로 주어집니다. my_string을 거꾸로 뒤집은 문자열을 return하도록 solution 함수를 완성해주세요.<br/>
 1 ≤ my_string의 길이 ≤ 1,000
 ```python
 def solution(my_string):
@@ -73,16 +72,16 @@ def solution(my_string):
 
 <h2>점의 위치 구하기</h2>
 ##### 문제<br>
-사분면은 한 평면을 x축과 y축을 기준으로 나눈 네 부분입니다. 사분면은 아래와 같이 1부터 4까지 번호를매깁니다.
-x 좌표와 y 좌표가 모두 양수이면 제1사분면에 속합니다.
-x 좌표가 음수, y 좌표가 양수이면 제2사분면에 속합니다.
-x 좌표와 y 좌표가 모두 음수이면 제3사분면에 속합니다.
-x 좌표가 양수, y 좌표가 음수이면 제4사분면에 속합니다.
-x 좌표 (x, y)를 차례대로 담은 정수 배열 dot이 매개변수로 주어집니다.
-좌표 dot이 사분면 중 어디에 속하는지 1, 2, 3, 4 중 하나를 return 하도록 solution 함수를 완성해주세요.
-dot의 길이 = 2
-dot[0]은 x좌표를, dot[1]은 y좌표를 나타냅니다
--500 ≤ dot의 원소 ≤ 500
+사분면은 한 평면을 x축과 y축을 기준으로 나눈 네 부분입니다. 사분면은 아래와 같이 1부터 4까지 번호를매깁니다.<br/>
+x 좌표와 y 좌표가 모두 양수이면 제1사분면에 속합니다.<br/>
+x 좌표가 음수, y 좌표가 양수이면 제2사분면에 속합니다.<br/>
+x 좌표와 y 좌표가 모두 음수이면 제3사분면에 속합니다.<br/>
+x 좌표가 양수, y 좌표가 음수이면 제4사분면에 속합니다.<br/>
+x 좌표 (x, y)를 차례대로 담은 정수 배열 dot이 매개변수로 주어집니다.<br/>
+좌표 dot이 사분면 중 어디에 속하는지 1, 2, 3, 4 중 하나를 return 하도록 solution 함수를 완성해주세요.<br/>
+dot의 길이 = 2<br/>
+dot[0]은 x좌표를, dot[1]은 y좌표를 나타냅니다<br/>
+-500 ≤ dot의 원소 ≤ 500<br/>
 dot의 원소는 0이 아닙니다.
 ```python
 def solution(dot):
