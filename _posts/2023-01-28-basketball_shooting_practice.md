@@ -5,7 +5,7 @@ title: 23.01.27 농구 일기
 subtitle: 농구 성장을 위한 피드백
 description: 농구 성장을 위한 피드백 기록
 image: /assets/img/posts/ball.jpg
-optimized_image: /assets/img/posts/ball.jpg
+optimized_image: /assets/img/posts/2023-01-28-basketball_shooting_practice/basketball.jpg
 category: basketball
 tags:
  - basketball
