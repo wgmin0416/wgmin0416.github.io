@@ -3,11 +3,6 @@ name: Daily Error
 title: Daily Error | wgmin0416
 description: Daily Error description
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
 show_hero: true
 menu:
   - title: Home
@@ -57,7 +52,7 @@ sent_message_url: "/contact/message-sent/"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+permalink: /:categories/:year/:month/:day/:title
 collections:
   authors:
     output: true
